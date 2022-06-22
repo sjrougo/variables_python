@@ -38,3 +38,8 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+print("Ingrese una palabra:")
+palabra = str(input())
+print("La palabra en minúscula: ", palabra.lower())
+print("La palabra en mayúscula: ", palabra.upper())
+print("La palabra con la primera letra mayúscula: ", palabra.capitalize())

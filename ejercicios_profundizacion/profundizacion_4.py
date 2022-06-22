@@ -45,3 +45,17 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+print("Ingrese el nombre completo de su padre:")
+padre = str(input())
+print("Ingrese el nombre completo de su madre:")
+madre = str(input())
+print("Ahora ingrese solo su nombre de pila:")
+nombre = str(input())
+apellido1 = padre.split(' ')
+apellido2 = madre.split(' ')
+print("El apellido de su padre es: ", apellido1[len(apellido1) - 1]) #Imprime el último espacio de la tupla, usando la funcion len -1 ya que se cuenta a partir de 0
+print("El apellido de su madre es: ", apellido2[len(apellido2) - 1]) #Repite el procedimiento anterior
+nombrecompleto = nombre + " " + apellido1[len(apellido1) - 1] + " " + apellido2[len(apellido2) - 1]
+# En la linea 58 se crea una nueva variable que concatena las variables nombre, apellido1 y apellido2
+# solamente recuperando los apellidos de los padres, además de agregar un espacio en blanco para prolijidad
+print("Su nombre completo es: ", nombrecompleto)
