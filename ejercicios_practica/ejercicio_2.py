@@ -19,17 +19,26 @@ numero_2 = int(input())
 
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
+print("Los números ingresados son: ", numero_1, " y ", numero_2)
 
 # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
 # numero_1, numero_2
+suma = numero_1 + numero_2
+resta  = numero_1 - numero_2
+multiplicacion = numero_1 * numero_2
+division = numero_1 / numero_2
 # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
 # El resultado de sumar 4 y 2 es 6
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
+print("El resultado de sumar", numero_1, "y ", numero_2, "es: ", suma)
 
 # Resta
+print("El resultado de restar", numero_1, "y ", numero_2, "es: ", resta)
 
 # División
+print("El resultado de multiplicacion", numero_1, "y ", numero_2, "es: ", multiplicacion)
 
 # Multiplicación
+print("El resultado de dividir", numero_1, "y ", numero_2, "es: ", division)
